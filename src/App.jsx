@@ -1,5 +1,5 @@
 import AddTodoForm from "./Components/AddTodoForm";
-import TodoItem from "./components/TodoItem";
+
 import TodoList from "./components/TodoList";
 import TotalItems from "./Components/TotalItems";
 const App = () => {
