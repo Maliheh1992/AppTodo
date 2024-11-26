@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegTrashCan } from "react-icons/fa6";
 import { useDispatch } from "react-redux";
-import { deleteTodoAsync, toggleCompleteAsync } from "../Redux/todoSlice";
+import { deleteTodoAsync, toggleCompleteAsync } from "../redux/todoSlice";
 const TodoItem = ({ id, title, completed }) => {
   const dispatch = useDispatch();
   const handleCompleted = () => {
