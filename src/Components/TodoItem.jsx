@@ -1,4 +1,3 @@
-import React from "react";
 import { FaRegTrashCan } from "react-icons/fa6";
 import { useDispatch } from "react-redux";
 import { deleteTodoAsync, toggleCompleteAsync } from "../redux/todoSlice";
