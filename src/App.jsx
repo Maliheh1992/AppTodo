@@ -1,6 +1,6 @@
-import AddTodoForm from "./components/AddTodoForm";
-import TodoList from "./components/TodoList";
-import TotalItems from "./components/TotalItems";
+import AddTodoForm from "./components/AddTodoForm.jsx";
+import TodoList from "./components/TodoList.jsx";
+import TotalItems from "./components/TotalItems.jsx";
 const App = () => {
   return (
     <div className="bg-stone-900 grid py-4 min-h-screen">
